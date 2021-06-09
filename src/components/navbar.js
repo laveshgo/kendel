@@ -18,13 +18,13 @@ function NavBar(props){
         <div className="navbar">
             <div className="container">
              <ul>
-                <Link to="/">
+                <Link to="/profile">
                   <li className="liText" >
                     <PersonOutlineIcon  className="icon"/>
                     Profile
                   </li>{" "}
                 </Link>
-                <Link  to="/dashbaord">
+                <Link  to="/dashboard">
                   <li className="liText"> 
                     <DashboardIcon  className="icon" />         
                     Dashboard                  

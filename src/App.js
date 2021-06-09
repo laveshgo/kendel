@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch ,Redirect} from "react-router-dom";
 import NavBar from "./components/navbar.js";
 import Footer from "./components/footer.js"
 import TopBar from "./components/topbar.js";
@@ -40,7 +40,7 @@ function App() {
             />
 
             <Switch>
-              <Route path="/" exact component={profile} />
+              <Route path="/profile" exact component={profile} />
               <Route path="/classes" exact component={classes} />
               <Route path="/dashboard" exact component={dashboard} />
               <Route path="/classes" exact component={classes} />
@@ -55,6 +55,8 @@ function App() {
               <Route path="/studentattendence2" exact component={studentAttendence2} />
               <Route path="/settings" exact component={settings} /> 
               <Route path="/logout" exact component={logout} /> 
+              <Redirect from="/" to="/profile" />
+
             </Switch>
 
             <Footer />
