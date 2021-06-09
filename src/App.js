@@ -3,18 +3,18 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/navbar.js";
 import Footer from "./components/footer.js"
 import TopBar from "./components/topbar.js";
-import TeacherAttendence from "./components/teacherAttendence";
-import {profile} from "./components/profile";
-import {dashboard} from "./components/dashboard";
-import {staff} from "./components/staff";
-import {students} from "./components/students";
-import {exam} from "./components/exam";
-import {curriculam} from "./components/curriculam";
-import {timetable} from "./components/timetable";
-import {studentAttendence} from "./components/studentAttendence";
-import {settings} from "./components/settings";
-import {logout} from "./components/logout";
-import {classes} from "./components/classes";
+import TeacherAttendence from "./components/Routes/teacherAttendence";
+import {profile} from "./components/Routes/profile";
+import {dashboard} from "./components/Routes/dashboard";
+import {staff} from "./components/Routes/staff";
+import {students} from "./components/Routes/students";
+import {exam} from "./components/Routes/exam";
+import {curriculam} from "./components/Routes/curriculam";
+import {timetable} from "./components/Routes/timetable";
+import {studentAttendence} from "./components/Routes/studentAttendence";
+import {settings} from "./components/Routes/settings";
+import {logout} from "./components/Routes/logout";
+import {classes} from "./components/Routes/classes";
 
 function App() {
 

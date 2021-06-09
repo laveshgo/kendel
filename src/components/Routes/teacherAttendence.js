@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import "../Styles/teacherAttendence.css";
+import "../../Styles/teacherAttendence.css";
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import Button from 'react-bootstrap/Button'
