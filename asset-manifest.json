@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/kendel/static/css/main.045a06cc.chunk.css",
-    "main.js": "/kendel/static/js/main.25dc63bd.chunk.js",
-    "main.js.map": "/kendel/static/js/main.25dc63bd.chunk.js.map",
+    "main.css": "/kendel/static/css/main.0ed22d83.chunk.css",
+    "main.js": "/kendel/static/js/main.94d8bf74.chunk.js",
+    "main.js.map": "/kendel/static/js/main.94d8bf74.chunk.js.map",
     "runtime-main.js": "/kendel/static/js/runtime-main.c7f0564e.js",
     "runtime-main.js.map": "/kendel/static/js/runtime-main.c7f0564e.js.map",
-    "static/js/2.936437ed.chunk.js": "/kendel/static/js/2.936437ed.chunk.js",
-    "static/js/2.936437ed.chunk.js.map": "/kendel/static/js/2.936437ed.chunk.js.map",
+    "static/css/2.997a2085.chunk.css": "/kendel/static/css/2.997a2085.chunk.css",
+    "static/js/2.7975561e.chunk.js": "/kendel/static/js/2.7975561e.chunk.js",
+    "static/js/2.7975561e.chunk.js.map": "/kendel/static/js/2.7975561e.chunk.js.map",
     "index.html": "/kendel/index.html",
-    "static/css/main.045a06cc.chunk.css.map": "/kendel/static/css/main.045a06cc.chunk.css.map",
-    "static/js/2.936437ed.chunk.js.LICENSE.txt": "/kendel/static/js/2.936437ed.chunk.js.LICENSE.txt"
+    "static/css/2.997a2085.chunk.css.map": "/kendel/static/css/2.997a2085.chunk.css.map",
+    "static/css/main.0ed22d83.chunk.css.map": "/kendel/static/css/main.0ed22d83.chunk.css.map",
+    "static/js/2.7975561e.chunk.js.LICENSE.txt": "/kendel/static/js/2.7975561e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c7f0564e.js",
-    "static/js/2.936437ed.chunk.js",
-    "static/css/main.045a06cc.chunk.css",
-    "static/js/main.25dc63bd.chunk.js"
+    "static/css/2.997a2085.chunk.css",
+    "static/js/2.7975561e.chunk.js",
+    "static/css/main.0ed22d83.chunk.css",
+    "static/js/main.94d8bf74.chunk.js"
   ]
 }
