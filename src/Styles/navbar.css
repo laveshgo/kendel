@@ -14,13 +14,19 @@
     left: 0;
     width: 15%;
     background: linear-gradient(179.88deg, #011B53 -143.82%, #063DB5 226.52%);
+    padding: 20px 0 0;
 
 }
 
-hr {
+.navbar .container hr {
     border: 0;
     height: 0.5px;
     background: #C3E1FF;
+}
+
+.navbar .container p {
+
+    margin-left: 20px;
 }
 
 ul {
@@ -53,4 +59,8 @@ li:hover {
     letter-spacing: 0.04em;
     padding-left: 10px;
     color: #FFFAF0;
+}
+
+.icon {
+    margin: auto 10px;
 }

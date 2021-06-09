@@ -11,10 +11,12 @@ import {students} from "./components/Routes/students";
 import {exam} from "./components/Routes/exam";
 import {curriculam} from "./components/Routes/curriculam";
 import {timetable} from "./components/Routes/timetable";
-import {studentAttendence} from "./components/Routes/studentAttendence";
+import StudentAttendence from "./components/Routes/studentAttendence";
 import {settings} from "./components/Routes/settings";
 import {logout} from "./components/Routes/logout";
 import {classes} from "./components/Routes/classes";
+import {teacherAttendence2} from "./components/Routes/teacherAttendence2";
+import {studentAttendence2} from "./components/Routes/studentAttendence2";
 
 function App() {
 
@@ -48,7 +50,9 @@ function App() {
               <Route path="/curriculam" exact component={curriculam} />
               <Route path="/timetable" exact component={timetable} />
               <Route path="/teahcerattendence" exact component={TeacherAttendence} />
-              <Route path="/studentattendence" exact component={studentAttendence} />
+              <Route path="/teacherattendence2" exact component={teacherAttendence2} />
+              <Route path="/studentattendence" exact component={StudentAttendence} />
+              <Route path="/studentattendence2" exact component={studentAttendence2} />
               <Route path="/settings" exact component={settings} /> 
               <Route path="/logout" exact component={logout} /> 
             </Switch>

@@ -20,13 +20,13 @@ function NavBar(props){
              <ul>
                 <Link to="/">
                   <li className="liText" >
-                    <PersonOutlineIcon />
+                    <PersonOutlineIcon  className="icon"/>
                     Profile
                   </li>{" "}
                 </Link>
                 <Link  to="/dashbaord">
                   <li className="liText"> 
-                    <DashboardIcon />         
+                    <DashboardIcon  className="icon" />         
                     Dashboard                  
                   </li>{" "}
                 </Link>
@@ -34,49 +34,49 @@ function NavBar(props){
                 <p>Main</p>
                 <Link  to="/classes">
                   <li className="liText"> 
-                    <ClassIcon />         
+                    <ClassIcon  className="icon" />         
                     Classes                  
                   </li>{" "}
                 </Link>
                 <Link  to="/staff">
                   <li className="liText"> 
-                    <PeopleIcon />         
+                    <PeopleIcon  className="icon" />         
                     Staff                  
                   </li>{" "}
                 </Link>
                 <Link  to="/students">
                   <li className="liText"> 
-                    <PeopleIcon />         
+                    <PeopleIcon  className="icon" />         
                     Students                  
                   </li>{" "}
                 </Link>
                 <Link  to="/exam">
                   <li className="liText"> 
-                    <LiveHelpIcon />         
+                    <LiveHelpIcon  className="icon" />         
                     Exam                  
                   </li>{" "}
                 </Link>
                 <Link  to="/curriculam">
                   <li className="liText"> 
-                    <ReceiptIcon />         
+                    <ReceiptIcon  className="icon" />         
                     Curriculam                  
                   </li>{" "}
                 </Link>
                 <Link  to="/timetable">
                   <li className="liText"> 
-                    <CheckBoxIcon />         
+                    <CheckBoxIcon  className="icon" />         
                     Time Table                  
                   </li>{" "}
                 </Link>              
                 <Link  to="/teahcerattendence">
                   <li className="liText">
-                    <EventAvailableIcon />
+                    <EventAvailableIcon  className="icon" />
                     Staff Attendence{" "}
                   </li>
                 </Link>
                 <Link  to="/studentattendence">
                   <li className="liText"> 
-                    <PeopleIcon />         
+                    <PeopleIcon className="icon"/>         
                     Student Atttendence                 
                   </li>{" "}
                 </Link>
@@ -84,17 +84,19 @@ function NavBar(props){
                 <p>Others</p>
                 <Link  to="/settings">
                   <li className="liText">
-                    <SettingsIcon />
+                    <SettingsIcon  className="icon" />
                     Settings{" "}
                   </li>
                 </Link>
                 <Link  to="/logout">
                   <li className="liText">
-                    <ExitToAppIcon />
+                    <ExitToAppIcon  className="icon" />
                     Logout{" "}
                   </li>
                 </Link>
+                
               </ul>
+              
            </div>   
         </div>
     )
