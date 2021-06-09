@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch ,Redirect, BrowserRouter} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch ,Redirect} from "react-router-dom";
 import NavBar from "./components/navbar.js";
 import Footer from "./components/footer.js"
 import TopBar from "./components/topbar.js";
@@ -31,7 +31,7 @@ function App() {
         
        
         
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
           <div className="App">
             {showNav && <NavBar />}
              <TopBar 
@@ -56,12 +56,11 @@ function App() {
               <Route path="/settings" exact component={settings} /> 
               <Route path="/logout" exact component={logout} /> 
               <Redirect from="/" to="/profile" />
-
             </Switch>
 
             <Footer />
           </div>
-      </BrowserRouter>
+      </Router>
   );
 }
 
